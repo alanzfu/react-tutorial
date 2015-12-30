@@ -26,13 +26,26 @@ var CommentForm = React.createClass({
   render: function(){
     return (
       <div className="commentForm">
-        Hello world! I am a commentList
+        <form>
+          <input placeholder="your name">
+          </input>
+          <input placeholder="what's up">
+          </input>
+        </form>
       </div>
     );
   }
 });
 
+var Comment = React.createClass({
+  render: function(){
+    return (
+      
+    )
+  }
+})
+
 ReactDOM.render(
   <CommentBox />,
-  document.getElementById('content');
+  document.getElementById('content')
 ) 
